@@ -45,7 +45,7 @@ const hero = () => {
             {/* Icons end*/}
         </div>
         {/* Image */}
-        <img className="order-1 w-[250px] h-[50%] rounded-2xl xs:w-[150px] sm:w-[200px] md:w-[280px]" src={zaid_img} alt="" />
+        <img className="order-1 w-[250px] h-[50%] rounded-2xl xs:w-[150px] sm:w-[200px] md:w-[250px]" src={zaid_img} alt="" />
       </div>
        {/* Tech Stack */}
         <div className="mt-[30px] flex items-center justify-center gap-5  text-[18px] font-bold">
