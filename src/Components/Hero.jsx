@@ -9,7 +9,7 @@ const hero = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="w-full h-[70px] flex items-center justify-between font-bold px-[40px]">
+      <nav className="w-full h-[70px] flex items-center justify-between font-bold px-[40px] sticky top-0 bg-white">
         <h3 className="text-[18px]">Logo</h3>
         <ul className="flex items-center justify-center text-[16px] gap-3.5">
           <li>Home</li>
