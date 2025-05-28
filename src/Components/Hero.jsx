@@ -20,7 +20,7 @@ const hero = () => {
       </nav>
 
       {/* Main Content */}
-      <div className="max-w-full h-[75vh] mx-auto   flex px-10 items-center justify-center flex-col md:flex-row ">
+      <div className="max-w-full h-[75vh] mx-auto border flex px-10 items-center justify-center flex-col md:flex-row ">
         {/* Content */}
         <div className="flex flex-col gap-5 text-center mt-4 order-2 
           xs:w-[40%] sm:w-[50%] md:w-[500px] md:pb-25 pl-10 md:text-start ">
@@ -48,7 +48,7 @@ const hero = () => {
         <img className="order-1 w-[250px] h-[50%] rounded-2xl xs:w-[150px] sm:w-[200px] md:w-[250px]" src={zaid_img} alt="" />
       </div>
        {/* Tech Stack */}
-        <div className="mt-[30px] flex items-center justify-center gap-5  text-[18px] font-bold">
+        <div className="mt-[30px] flex items-center justify-center gap-5  text-[18px] font-bold border h-[12vh]">
           <span>Tech Stack | </span>
           <img src={html_icon} className="w-[23px]" alt="" />
           <img src={css_icon} className="w-[23px]" alt="" />
