@@ -9,7 +9,7 @@ const hero = () => {
   return (
     <>
       {/* Navbar */}
-      <nav className="w-full h-[70px] flex items-center justify-between font-bold px-[40px] sticky top-0 bg-white">
+      <nav className="w-full h-[70px] flex items-center justify-between font-bold px-[40px] sticky top-0 bg-white z-10">
         <h3 className="text-[18px]">Logo</h3>
         <ul className="flex items-center justify-center text-[16px] gap-3.5">
           <li>Home</li>
@@ -20,7 +20,7 @@ const hero = () => {
       </nav>
 
       {/* Main Content */}
-      <div className="max-w-full h-[75vh] mx-auto border flex px-10 items-center justify-center flex-col md:flex-row ">
+      <div className="max-w-full h-[75vh] mx-auto flex px-10 items-center justify-center flex-col md:flex-row ">
         {/* Content */}
         <div className="flex flex-col gap-5 text-center mt-4 order-2 
           xs:w-[40%] sm:w-[50%] md:w-[500px] md:pb-25 pl-10 md:text-start ">
@@ -48,13 +48,13 @@ const hero = () => {
         <img className="order-1 w-[250px] h-[50%] rounded-2xl xs:w-[150px] sm:w-[200px] md:w-[250px]" src={zaid_img} alt="" />
       </div>
        {/* Tech Stack */}
-        <div className="mt-[30px] flex items-center justify-center gap-5  text-[18px] font-bold border h-[12vh]">
+        <div className="mt-[30px] flex items-center justify-center gap-5  text-[18px] font-bold h-[12vh]">
           <span>Tech Stack | </span>
-          <img src={html_icon} className="w-[23px]" alt="" />
-          <img src={css_icon} className="w-[23px]" alt="" />
-          <img src={js_icon} className="w-[25px]" alt="" />
-          <img src={react_icon} className="w-[25px]" alt="" />
-          <img src={tailwind_icon} className="w-[25px]" alt="" />
+          <img src={html_icon} className="w-[27px]" alt="" />
+          <img src={css_icon} className="w-[26px]" alt="" />
+          <img src={js_icon} className="w-[29px]" alt="" />
+          <img src={react_icon} className="w-[33px]" alt="" />
+          <img src={tailwind_icon} className="w-[33px]" alt="" />
         </div>
     </>
   );
