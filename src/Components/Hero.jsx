@@ -5,18 +5,38 @@ import css_icon from '../assets/css-icon.svg'
 import js_icon from '../assets/javascript-programming-language-icon.svg'
 import react_icon from '../assets/react-js-icon.svg'
 import tailwind_icon from '../assets/tailwind-css-icon.svg'
+import { useState } from "react";
 const hero = () => {
+  const [navClick,setNavClick] = useState(false)
+
+// Nav click function
+  const handleNavClick = () => {
+    setNavClick(!navClick)
+  }
+
   return (
     <>
       {/* Navbar */}
       <nav className="w-full h-[70px] flex items-center justify-between font-bold px-[40px] sticky top-0 bg-white z-10">
         <h3 className="text-[18px]">Logo</h3>
-        <ul className="flex items-center justify-center text-[16px] gap-3.5">
+        <ul className="hidden sm:flex md:items-center  md:justify-center text-[16px] gap-3.5">
           <li>Home</li>
           <li>About</li>
           <li>Projects</li>
           <li>Contact</li>
         </ul>
+        {/* Nav Bar */}
+        <div className="sm:hidden z-10 " onClick={handleNavClick}>
+           <i className={`fa-solid fa-bars text-3xl ${navClick ? 'text-white' : 'text-black'}`}></i>
+        </div>
+        {/* Navigation menu */}
+          <ul className={`fixed flex flex-col  items-start justify-start  transition-transform duration-500 ${navClick ? 'right-0' : 'right-[-50%]'} top-0 h-[100vh] w-50/100 text-white text-[18px] gap-3.5 bg-black pt-20 z-0 `}>
+          <li className="ml-15">Home</li>
+          <li className="ml-15">About</li>
+          <li className="ml-15">Projects</li>
+          <li className="ml-15">Contact</li>
+        </ul>
+
       </nav>
 
       {/* Main Content */}
