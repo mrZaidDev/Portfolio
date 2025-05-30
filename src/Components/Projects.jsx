@@ -1,6 +1,6 @@
 import UniqueProject from "./UniqueProject";
-import ecommerce_pic from '../assets/eccomerce-app-picture.PNG'
 import University_pic from '../assets/University-pic.GIF'
+import Ecomerce_pic_jpeg_version from '../assets/Eccomerce-pic-jpeg-version.JPG'
 const Projects = () => {
   return (
     <section className="w-full h-auto my-20 flex items-center flex-col px-10 pb-10 ">
@@ -15,16 +15,16 @@ const Projects = () => {
       </header>
         {/* Project Preview 1*/}
         <div className="mt-5 md:mt-10">
-            <UniqueProject image={ecommerce_pic} title='E-commerce filtering functionality.' desc="This is an e-commerce web app, where I widely used the filtering functionality in it, forExample. You can filter according to the price, you can filter according to the category and many more. " github="https://github.com/mrZaidDev/Ecommerce-filtering-app" liveDemo="https://ecommerce-filtering-web.netlify.app/" rowType={'flex-row'}/>
+            <UniqueProject image={Ecomerce_pic_jpeg_version} title='E-commerce filtering functionality.' desc="This is an e-commerce web app, where I widely used the filtering functionality in it, forExample. You can filter according to the price, you can filter according to the category and many more. " github="https://github.com/mrZaidDev/Ecommerce-filtering-app" liveDemo="https://ecommerce-filtering-web.netlify.app/" rowType={'flex-row-reverse'}/>
         </div>
         {/* Project Preview 2*/}
         <div className="mt-5 md:mt-10">
-            <UniqueProject image={University_pic} title="University Website" desc="This is a university website, where I have added pictures with different designs, also included testimonial part. I also included the contact form that works perfectly." github="https://github.com/mrZaidDev/University-website" liveDemo="https://islamic-university.netlify.app/" rowType={'flex-row-reverse'}/>
+            <UniqueProject image={University_pic} title="University Website" desc="This is a university website, where I have added pictures with different designs, also included testimonial part. I also included the contact form that works perfectly." github="https://github.com/mrZaidDev/University-website" liveDemo="https://islamic-university.netlify.app/" rowType={'flex-row'}/>
         </div>
         {/* Project Preview 2*/}
-        <div className="mt-5 md:mt-10">
-            <UniqueProject image={'https://cdn.motocms.com/src/868x580/72200/72209-original-1200.jpg'} title="The Nice Game" desc="Me created for the one who wanted. This for that, This project was created for the one who wanted. This for that, This project was created for the one who wanted. This for that," github="https://github.com/mrZaidDev" rowType={'flex-row'}/>
-        </div>
+        {/* <div className="mt-5 md:mt-10">
+            <UniqueProject image={} title="The Nice Game" desc="Me created for the one who wanted. This for that, This project was created for the one who wanted. This for that, This project was created for the one who wanted. This for that," github="https://github.com/mrZaidDev" rowType={'flex-row'}/>
+        </div> */}
     </section>
   );
 };

@@ -1,7 +1,9 @@
 
 const UniqueProject = ({image,title,desc,github,rowType,liveDemo}) => {
+  const RowReverse = rowType === 'flex-row-reverse'
+
   return (
-    <div className= {`flex flex-col items-start w-[280px] mt-15 gap-4 md:${rowType}  md:w-[700px] md:h-[300px]`} >
+    <div className= {`flex flex-col items-start w-[280px] mt-15 gap-4 ${RowReverse ? 'md:flex-row-reverse' : 'md:flex-row'}  md:w-[700px] md:h-[300px]`} >
         {/* Image */}
         
       <img className="rounded-[6px] w-[280px] h-[200px] border md:w-[380px] md:h-[280px] md:mt-3 blur-[2.5px] z-0" src={image} alt="" />
