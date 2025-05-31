@@ -2,7 +2,7 @@
 const Sevices = () => {
   return (
     <div>
-         <section className="w-full h-[50vh]  my-20 flex items-center justify-center flex-col px-10 pb-10 ">
+         <section className="w-full h-[50vh]  mt-30 flex items-center justify-center flex-col px-10 pb-10 ">
             {/* Projects heading */}
       <div className="w-[280px] md:w-[650px] md:mr-15">
         <p className="text-blue-600 text-[16px] my-1 font-extrabold uppercase text[14px] mr-60">
