@@ -12,8 +12,10 @@ const About = () => {
       <div className="w-[280px] h-[280px] md:w-[350px] md:h-[300px] md:mb-4 lg:w-[350px] lg:h-[350px] lg:mb-[-28px]">
         {/* about title */}
         <p className='text-blue-600 text-[16px] font-extrabold uppercase hidden md:inline'>About me</p>
-        <h3 className='text-[22px] font-bold'>A dedicated Front-end Developer based in Pakistan, Chaman</h3>
-        <p className="text-gray-500 font-semibold">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus vel totam deserunt quas amet suscipit delectus, adipisci debitis numquam dolores quis, doloribus modi! Amet iste libero nihil, at facilis id qui laborum similique voluptate alias, autem odio, rem quidem dolores. Temporibus, saepe. Eos voluptatum saepe corporis ratione, excepturi porro repellendus!</p>
+        <h3 className='text-[22px] font-bold'>Hi, I am Zaid, a passionate Frontend Developer.</h3>
+        <p className="text-gray-500 font-semibold">I specialize in building responsive, fast and user-friendly websites using Tailwind, React, HTML, CSS, JS. Whether It's a landing page, a small business site , I focus on performance and simplicity.</p>
+        <p className='text-gray-500 font-semibold'>With a strong understanding of modern frontend development, I help individulas and businesses bring their ideas to life</p>
+        <p className='text-gray-500 font-semibold'>Let's build it together!</p>
       </div>
     </section>
   )

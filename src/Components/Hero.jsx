@@ -23,6 +23,7 @@ const hero = () => {
           <li>Home</li>
           <li>About</li>
           <li>Projects</li>
+          <li>Services</li>
           <li>Contact</li>
         </ul>
         {/* Nav Bar */}
@@ -35,6 +36,7 @@ const hero = () => {
           <li className="ml-15">About</li>
           <li className="ml-15">Projects</li>
           <li className="ml-15">Contact</li>
+          <li className="ml-15">Contact</li>
         </ul>
 
       </nav>
@@ -46,20 +48,19 @@ const hero = () => {
         {/* Content */}
         <div className="flex flex-col gap-5 text-center mt-4
           w-[300px] sm:w-[400px] md:mt-0 md:w-[500px] md:pb-25 md:ml-10  md:text-start ">
-          <h1 className="text-3xl  sm:text-3xl font-bold md:text-5xl">
-            Front-End React Developer {" "}
-            <img src={waving_hand} alt="" className="w-[35px] inline sm:w-[40px] md:w-[50px]" />
+          <h1 className="text-3xl  sm:text-3xl font-bold md:text-5xl mt-2">
+            Hi, I'm Zaid
+            <img src={waving_hand} alt="" className="mb-5 ml-5 w-[35px] inline sm:w-[40px] md:w-[50px]" />
           </h1>
-          <p className="text-gray-500 font-semibold">
-           I'm Zaid Noorzai. A passionate Front end React Developer based
-            in Pakistan, Chaman
+          <p className="text-gray-500 font-semibold mb-2">
+          I build clean, responsive websites using React & Tailwind CSS for startups, creators, and small businesses.
           </p>
           {/* Icons start */}
           <div>
-            <a target="_blank" href="https://www.linkedin.com/in/zaid-khan-b5833931a/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/zaid-khan-b5833931a/">
               <i className="fab fa-linkedin text-3xl text-gray-700"></i>
             </a>
-            <a target="_blank" href="https://github.com/mrZaidDev">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/mrZaidDev">
               {" "}
               <i className="fab fa-github text-3xl text-gray-700 ml-2"></i>
             </a>

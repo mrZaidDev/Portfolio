@@ -12,11 +12,11 @@ const UniqueProject = ({image,title,desc,github,rowType,liveDemo}) => {
         <h3 className="self-start text-[17px] font-bold">{title}</h3>
         <p className="text-gray-500 font-semibold mt-1">{desc}</p>
         <div className="flex mt-3 self-start">
-             <a className="flex items-center gap-[5px]" target="_blank" href={github}>
+             <a className="flex items-center gap-[5px]" target="_blank" rel="noopener noreferrer" href={github}>
               {" "}
              <span className="text-gray-700 text-[16px]">Code</span> <i className="fab fa-github text-2xl text-gray-700 "></i>
             </a>
-             <a className="ml-2 flex items-center gap-[5px]" target="_blank" href={liveDemo}>
+             <a className="ml-2 flex items-center gap-[5px]" target="_blank" rel="noopener noreferrer" href={liveDemo}>
               {" "}
               <span className={`text-gray-700 text-[16px]`}>Live Demo</span><i className="fa-solid fa-arrow-up-right-from-square text-2xl text-gray-700 "></i>
             </a>
