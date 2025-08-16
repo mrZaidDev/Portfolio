@@ -3,11 +3,11 @@ import University_pic from '../assets/University-pic.GIF'
 import Ecomerce_pic_jpeg_version from '../assets/Eccomerce-pic-jpeg-version.JPG'
 const Projects = () => {
   return (
-    <section className="w-full h-auto my-20 flex items-center flex-col px-10 pb-10 ">
+    <section id="projects" className="w-full h-auto my-30 flex items-center flex-col px-10 pb-10 ">
         {/* Projects heading */}
       <header className="w-[280px] md:w-[650px] md:mr-15">
         <p className="text-blue-600 text-[16px] my-1 font-extrabold uppercase text[14px] mr-60">
-          Portfolio
+          Projects
         </p>
         <h1 className="text-[22px] font-bold">
           Each Project is a unique piece of development.
@@ -22,9 +22,9 @@ const Projects = () => {
             <UniqueProject image={University_pic} title="University Website" desc="This is a university website, where I have added pictures with different designs, also included testimonial part. I also included the contact form that works perfectly." github="https://github.com/mrZaidDev/University-website" liveDemo="https://islamic-university.netlify.app/" rowType={'flex-row'}/>
         </div>
         {/* Project Preview 2*/}
-        {/* <div className="mt-5 md:mt-10">
-            <UniqueProject image={} title="The Nice Game" desc="Me created for the one who wanted. This for that, This project was created for the one who wanted. This for that, This project was created for the one who wanted. This for that," github="https://github.com/mrZaidDev" rowType={'flex-row'}/>
-        </div> */}
+         <div className="mt-5 md:mt-10">
+            <UniqueProject image={University_pic} title="University Website" desc="This is a university website, where I have added pictures with different designs, also included testimonial part. I also included the contact form that works perfectly." github="https://github.com/mrZaidDev/University-website" liveDemo="https://islamic-university.netlify.app/" rowType={'flex-row'}/>
+        </div>
     </section>
   );
 };
